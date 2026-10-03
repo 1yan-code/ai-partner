@@ -4,6 +4,10 @@
 
 > 本项目用于演示如何快速搭建一个接入大语言模型的应用。
 
+## 🖼️ 界面预览
+
+![AI 智能伴侣界面](resources/screenshot.png)
+
 ## ✨ 功能特点
 
 - 🖥️ **Streamlit 网页界面**：简洁的聊天窗口，实时交互
@@ -52,10 +56,10 @@ streamlit run ai_partner.py
 ai助手创建/
 ├── ai_partner.py          # 主应用：Streamlit 聊天界面 + 调用 DeepSeek
 ├── DeepSeek调用测试.py     # DeepSeek API 调用测试脚本
-├── streamlit.py           # PyCharm 自动生成的模板文件（可忽略）
 ├── requirements.txt       # 依赖清单
 └── resources/
-    └── logo.jpg           # 应用 Logo
+    ├── logo.jpg           # 应用 Logo
+    └── screenshot.png     # 界面截图
 ```
 
 ## 🔧 技术要点
